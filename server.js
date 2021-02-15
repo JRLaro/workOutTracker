@@ -4,6 +4,8 @@ const logger = require("morgan");
 
 const PORT = process.env.PORT || 3030;
 
+const uri = process.env.MONGODB_URI;
+
 const db = require("./models");
 
 const app = express();
