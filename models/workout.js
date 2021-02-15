@@ -35,6 +35,10 @@ const WorkoutSchema = new Schema({
                 type: Number,
                 required: "Please enter a valid set for your exercise"
             },
+            distance: {
+                type: Number, 
+                required: "Pkease enter a valid distance for your exercise"
+            }
         }
     ]
 });
